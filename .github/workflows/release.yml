@@ -1,9 +1,9 @@
 name: Publish Docker image
 on:
   push:
-    branches: [feat/ci]
+    branches: [main]
   pull_request:
-    branches: [feat/ci]
+    branches: [main]
 jobs:
   push_to_registry:
     name: Push Docker image to GitHub Packages
